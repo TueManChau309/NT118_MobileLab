@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+
+        <EditText
+            android:id="@+id/etURL"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="https://tuemanchau309.github.io/NT118-Mobile/hihi.mp3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnStream"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:text="Play Music"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"/>
+
+                <Button
+                    android:id="@+id/btnStop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stop"
+
+                    android:layout_weight="1"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"/>
+        </LinearLayout>
+
+</LinearLayout>
